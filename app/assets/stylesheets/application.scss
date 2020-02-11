@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+// app/assets/stylesheets/application.scss
+@import "bootstrap/scss/bootstrap";
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  padding: 10px;
+}
